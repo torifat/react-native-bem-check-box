@@ -20,6 +20,7 @@ export default class BEMCheckBox extends Component {
   static propTypes = {
     value: PropTypes.bool,
     lineWidth: PropTypes.number,
+    hideBox: PropTypes.bool,
     boxType: PropTypes.oneOf(BOX_TYPES),
     tintColor: PropTypes.string,
     onCheckColor: PropTypes.string,
@@ -40,13 +41,13 @@ export default class BEMCheckBox extends Component {
     return (
       <RNBEMCheckBox
         style={[styles.checkbox, style]}
-        onChange={this.onChange}
+        onChange={this._onChange}
         {...rest}
       />
     );
   }
 
-  onChange = (event) => {
+  _onChange: (event: Object) => void = (event) => {
     const { name, value } = event.nativeEvent;
     const { onValueChange, onAnimationEnd } = this.props;
     switch (name) {

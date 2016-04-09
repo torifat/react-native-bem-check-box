@@ -28,22 +28,15 @@ RCT_ENUM_CONVERTER(BEMAnimationType, (@{
 @interface RNBEMCheckBoxManager() <BEMCheckBoxDelegate>
 @end
 
-@implementation RNBEMCheckBoxManager {
-    BEMCheckBox *_checkBox;
-}
+@implementation RNBEMCheckBoxManager
 
 RCT_EXPORT_MODULE();
 
 - (UIView *)view
 {
-    _checkBox = [BEMCheckBox new];
+    BEMCheckBox *_checkBox = _checkBox = [BEMCheckBox new];
     _checkBox.delegate = self;
     return _checkBox;
-}
-
-- (void)reactSetFrame:(CGRect)frame
-{
-    [_checkBox setFrame:frame];
 }
 
 #pragma mark BEMCheckBoxDelegate
