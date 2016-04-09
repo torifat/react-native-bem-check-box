@@ -47,7 +47,7 @@ import BEMCheckBox from 'react-native-bem-check-box';
 
 ### Component properties
 
-Check [this section](https://github.com/Boris-Em/BEMCheckBox#customization) `BEMCheckBox` document
+Check [this section](https://github.com/Boris-Em/BEMCheckBox#customization) in `BEMCheckBox` document
 
 - `value` (boolean) - The current state. **Defaults to `false`**
 
