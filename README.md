@@ -10,7 +10,8 @@ React Native bridge for awesome [BEMCheckBox](https://github.com/Boris-Em/BEMChe
 - [Usage example](#usage-example)
   - [Code example](#code-example)
 - [Component properties](#component-properties)
-- [Questions?](#questions)
+- [Changelog](#changelog)
+- [License](#license)
 
 ### Installation
 1. Install package via `npm`:
