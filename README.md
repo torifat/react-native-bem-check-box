@@ -8,7 +8,7 @@ React Native bridge for awesome [BEMCheckBox](https://github.com/Boris-Em/BEMChe
 ### Content
 - [Installation](#installation)
 - [Usage example](#usage-example)
-  - [Code example](#code-example)
+  - [Basic usage](#basic-usage)
 - [Component properties](#component-properties)
 - [Changelog](#changelog)
 - [License](#license)
@@ -31,12 +31,13 @@ React Native bridge for awesome [BEMCheckBox](https://github.com/Boris-Em/BEMChe
 
 ### Usage example
 You can run built-in example via few simple steps:
+
 1. Clone repository
 2. Go to `Example`
 3. Run `npm install && open CheckBox.xcodeproj`
 4. Hit "Run"(`cmd+R`) button on XCode panel
 
-#### Code example
+#### Basic usage
 
 ```javascript
 import BEMCheckBox from 'react-native-bem-check-box';
