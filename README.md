@@ -85,6 +85,7 @@ Check [this section](https://github.com/Boris-Em/BEMCheckBox#customization) in `
 
 ## Changelog
 
+- 0.3.0 Updated podspec
 - 0.2.0 Added Example
 - 0.1.0 Initial release
 

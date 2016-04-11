@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "RNBEMCheckBox"
-  s.version          = "0.1.0"
+  s.version          = "0.3.0"
   s.summary          = "React Native bridge for BEMCheckBox"
   s.homepage         = "https://github.com/torifat/react-native-bem-check-box"
   s.license          = "MIT"
