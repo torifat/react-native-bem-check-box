@@ -1,6 +1,6 @@
 {
   "name": "react-native-bem-check-box",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "React Native bridge for BEMCheckBox",
   "main": "BEMCheckBox.ios.js",
   "scripts": {

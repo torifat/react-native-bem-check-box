@@ -85,6 +85,7 @@ Check [this section](https://github.com/Boris-Em/BEMCheckBox#customization) in `
 
 ## Changelog
 
+- 0.3.2 Animate on `value` property set
 - 0.3.1 Updated podspec
 - 0.2.0 Added Example
 - 0.1.0 Initial release

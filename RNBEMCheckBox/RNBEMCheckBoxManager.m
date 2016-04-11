@@ -58,7 +58,9 @@ RCT_EXPORT_MODULE();
     [self.bridge.eventDispatcher sendInputEventWithName:@"topChange" body:event];
 }
 
-RCT_REMAP_VIEW_PROPERTY(value, on, BOOL);
+RCT_CUSTOM_VIEW_PROPERTY(value, BOOL, BEMCheckBox) {
+    [view setOn:[RCTConvert BOOL:json] animated:YES];
+}
 
 RCT_EXPORT_VIEW_PROPERTY(lineWidth, CGFloat);
 RCT_EXPORT_VIEW_PROPERTY(hideBox, BOOL);
