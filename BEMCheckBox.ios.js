@@ -3,12 +3,8 @@
  * @flow
  */
 'use strict';
-import React, {
-  Component,
-  PropTypes,
-  StyleSheet,
-  requireNativeComponent,
-} from 'react-native';
+import React, { Component, PropTypes } from 'react';
+import { StyleSheet, requireNativeComponent } from 'react-native';
 
 const RNBEMCheckBox = requireNativeComponent('RNBEMCheckBox', null);
 
