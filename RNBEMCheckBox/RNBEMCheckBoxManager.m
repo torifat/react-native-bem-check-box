@@ -1,10 +1,10 @@
 #import "BEMCheckBox.h"
 #import "RNBEMCheckBoxManager.h"
 
-#import "RCTBridge.h"
-#import "RCTEventDispatcher.h"
-#import "UIView+React.h"
-#import "RCTConvert.h"
+#import <React/RCTBridge.h>
+#import <React/RCTEventDispatcher.h>
+#import <React/UIView+React.h>
+#import <React/RCTConvert.h>
 
 @implementation RCTConvert (BEMCheckBox)
 
