@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/torifat/react-native-bem-check-box/issues"
   },
-  "homepage": "https://github.com/torifat/react-native-bem-check-box"
+  "homepage": "https://github.com/torifat/react-native-bem-check-box",
+  "peerDependencies": {
+    "react-native": "~0.40.0"
+  }
 }
