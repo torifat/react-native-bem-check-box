@@ -44,7 +44,7 @@ export default class BEMCheckBox extends Component {
     );
   }
 
-  _onChange = (event: Object) => void = (event) => {
+  _onChange = (event: Object): void => {
     const { name, value } = event.nativeEvent;
     const { onValueChange, onAnimationEnd } = this.props;
     switch (name) {
